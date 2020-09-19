@@ -1,0 +1,154 @@
+body
+{
+    margin: 0;
+    font-family: 'Jockey One', sans-serif;
+}
+
+/* Universal Selector*/
+*
+{
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+h1,h4,h5
+{
+    margin: 0;
+}
+
+.image_responsive
+{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn_dark
+{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 100px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+}
+
+.btn_dark:hover
+{
+    background-color: white;
+    color: orangered;
+}
+
+.margin_top
+{
+    margin-top:15px;
+}
+
+/* Navbar*/
+
+.navbar ul
+{
+    position: fixed;
+    width: 1350px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: black;
+    height: 70px;
+}
+
+.navbar ul li
+{
+    display: inline-block;
+}
+
+.navbar ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 25px 20px;
+    font-size: 16px;
+    color: orangered;
+    letter-spacing: 2px;
+}
+
+.navbar ul li a:hover
+{
+    background-color: orangered;
+    color: white;
+}
+
+/* Recipe Section */
+
+.recipe_section
+{
+    padding: 76px 0;
+
+}
+
+.image_wrapper
+{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 2px;
+}
+.image_wrapper img
+{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transition: all 0.4s;
+}
+
+.image_wrapper:hover img
+{
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+}
+.image_wrapper_text
+{
+    position: absolute;
+    bottom: 0;
+    padding: 30px 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    max-height: 130px;
+}
+
+.image_wrapper_text h5
+{
+    color: orangered;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.image_wrapper_text p
+{
+    line-height: 20px;
+}
+
+/* Footer Section */
+.footer
+{
+    background:black;
+    color: orangered;
+    padding: 1rem;
+    text-align: center;
+    max-height: 150px;
+}
+
+.social-media-links i
+{
+    margin: 1rem;
+}
